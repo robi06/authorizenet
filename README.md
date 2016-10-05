@@ -1,38 +1,32 @@
-authorizenet
+##Authorize Net API Library
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
-
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+I will implement all methods after finishing with my current project.
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require robi06/authorizenet
+$ composer require "robi06/authorizenet"
 ```
+#Add
+
+``` bash
+robi06\authorizenet\authorizenetServiceProvider::class
+```
+In service providers array and
+
+
+publish the configuration:
+
+``` bash
+php artisan config:publish robi06/authorizenet
+```
+and add valid options in configuration file.
 
 ## Usage
 
 ``` php
-```
-
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
 ```
 
 ## Contributing
