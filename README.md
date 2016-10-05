@@ -23,8 +23,6 @@ $ composer require robi06/authorizenet
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
 ```
 
 ## Change log
