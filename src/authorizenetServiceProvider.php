@@ -28,7 +28,7 @@ class authorizenetServiceProvider extends ServiceProvider
     {
         $this->registerAuthNet();
     }
-    private function registerSkeleton()
+    private function registerAuthNet()
     {
         $this->app->bind('authnet',function($app){
             return new AuthNet($app);
